@@ -4,15 +4,15 @@
 Image Denoising by Sparse 3-D Transform-Domain Collaborative Filtering
 ## 仓库结构
 .
-├── official_code/          # 官方代码的搬运
-├── NN_notebook/            # pytorch的笔记
-├── ReproductionProcess/    # 复现的过程（下一部分会详细介绍）
-├── 3D_linear_trans         # 3D线性变换的过程
-├── bm3d_AlgorithmAnalysis  # 对整个bm3d算法的总结和一点个人看法
-                            # 有两种文件版本
-├── LICENSE
-├── requirements.txt
-└── README.md
+├── official_code/          # 官方代码的搬运  
+├── NN_notebook/            # pytorch的笔记  
+├── ReproductionProcess/    # 复现的过程（下一部分会详细介绍）  
+├── 3D_linear_trans         # 3D线性变换的过程  
+├── bm3d_AlgorithmAnalysis  # 对整个bm3d算法的总结和一点个人看法  
+                            # 有两种文件版本  
+├── LICENSE  
+├── requirements.txt  
+└── README.md  
 ## 复现过程（个人对复现的理解，可能较为粗浅）
 ### 结构
 src/ 中我放了gpt生成的加载图片并加入噪声、进行评估还有将两个程序付诸行动的运行程序的模块。
